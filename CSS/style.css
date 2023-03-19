@@ -63,6 +63,12 @@ p3 {
     color: #c6bfbf;
 }
 
+p3 {
+    width: 100%;
+    margin-top: 2em;
+    clear: both;
+}
+
 aside {
     width: 20%;
     margin-right: 2%;
