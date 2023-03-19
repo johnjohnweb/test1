@@ -77,11 +77,10 @@ aside {
 }
 
 #colonne-de-droite {
-    width: 38em;
+    width: 76%;
     height: 38em;
     background: url(../images/8.jpg);
     background-size: cover;
-    margin: 0 0em;
 }
 
 
