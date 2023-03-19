@@ -1,0 +1,192 @@
+body {
+    background: url(../images/b1.jpg);
+}
+
+/* main */
+
+
+main {
+    width: 80%;
+    margin: 0 auto;
+
+    background-color: #bad8b6;
+}
+
+/* HEADER */
+
+
+header,
+footer {
+    background-color: #232323;
+    color: #f1f1f1;
+}
+
+#menu-haut li {
+    display: inline-block;
+    padding: 3%;
+    font-family: 'Orbitron', sans-serif;
+    color: #96846b;
+}
+
+#menu-haut li a {
+    font-size: 0.7em;
+    color: #96846b;
+    text-decoration: none;
+}
+
+#menu-haut {
+    text-align: right;
+    margin-right: 5em;
+}
+
+#logo {
+    float: left;
+    padding: 3%;
+}
+
+/* colonnes */
+
+section {
+    clear: both;
+}
+
+aside,
+#colonne-de-droite {
+    float: left;
+    padding-left: 1%;
+
+}
+
+p1,
+p2,
+p3 {
+    color: #c6bfbf;
+}
+
+aside {
+    width: 20%;
+    margin-right: 2%;
+    background-color: rgb(162, 185, 162);
+}
+
+#colonne-de-droite {
+    width: 46em;
+    height: 30em;
+    background: url(../images/8.jpg);
+    background-size: cover;
+    margin: 0 0em;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.bloc1,
+.bloc2 {
+    float: left;
+    width: 48%;
+    margin: 1%;
+}
+
+.bloc3 {
+    clear: both;
+}
+
+/* GALERIE */
+figure {
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+figure img {
+    width: 24%;
+}
+
+footer {
+    clear: both;
+    height: 3em;
+}
+
+/*      La page contact      */
+
+.colonne-gauche,
+.colonne-droite {
+    width: 46%;
+    float: left;
+    background-color: #A2B9A2;
+    margin: 1%;
+    padding-left: 2%;
+}
+
+.colonne-gauche p {
+    padding-left: 2px;
+}
+
+table {
+    width: 100%;
+    margin-left: -2%;
+    margin-bottom: 2%;
+}
+
+table,
+td {
+    border: 2px solid #f1f1f1;
+    border-collapse: collapse;
+}
+
+tr {
+    text-align: center;
+}
+
+thead,
+tfoot {
+    background-color: #000;
+    color: #f1f1f1;
+}
+
+/* formulaire */
+input {
+    margin-right: auto;
+}
+
+label {
+    display: inline-block;
+    width: 7em;
+    vertical-align: top;
+}
+
+input,
+textarea {
+    width: 20em;
+}
+
+input[type="submit"],
+input[type="rest"] {
+    width: 10em;
+    padding: 1%;
+    background-color: #232323;
+    color: #f1f1f1;
+}
+
+.boutton {
+    text-align: center;
+}
+
+legend {
+    color: #f1f1f1;
+    font-size: 1.2em;
+}
+
+fieldset {
+    border-color: #f1f1f1;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon premier site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <main>
+        <!-- entete -->
+        <header>
+            <img src="images/logo.png" alt="logo" id="logo">
+
+            <!-- menu -->
+            <ul id="menu-haut">
+                <li><a href="index.html" i class="fa-solid fa-house"> Accueil</li></a>
+                <li><a href="#" i class="fa-sharp fa-solid fa-cart-shopping"> Produit</li></a>
+                <li><a href="contact.html" i class="fa-solid fa-address-card"></i> Contact</li></a>
+            </ul>
+
+        </header>
+        <section>
+            <div class="colonne-gauche">
+                <h3>Nos coordonnées</h3>
+
+                <p>Nom de la société</p>
+                <p>Adresse code postal</p>
+                <p>Telephone</p>
+                <p>Mail</p>
+                <p>N° Siret</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2">Horaires d'ouverture
+                            </th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td>Dimanche et jours fériés</td>
+                            <td>Fermé</td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td>Du lundi au vendredi</td>
+                            <td>09h00 - 18h00</td>
+
+                        </tr>
+                        <tr>
+                            <td>Samedi</td>
+                            <td>09h00 - 20h00</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+            <div class="colonne-droite">
+                <h3>Contactez nous</h3>
+                <fieldset>
+                    <legend>Coordonnées</legend>
+                    <form action="#" method="post">
+                        <p><label for="nom">Votre nom <sup>*</sup> </label>
+                            <input type="text" name="Votre nom" required>
+                        </p>
+                        <p><label for="prenom">Votre prénom<sup>*</sup></label>
+                            <input type="text" name="Votre prenom" required>
+                        </p>
+                        <label for="text">Votre email<sup>*</sup></label>
+                        <input type="email" name="email" required>
+                        <p>
+                            <label for="">Votre téléphone <sup>*</sup> </label>
+                            <input type="telephone">
+                        </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informations</legend>
+                    <p>
+                        <label for="message">Votre message<sup>*</sup></label>
+                        <textarea name="message" placeholder="Votre message ici" id="" cols="30" rows="10"
+                            maxlength="250"></textarea>
+                    </p>
+                </fieldset>
+
+
+
+
+
+                <p class="boutton"><input type="submit" value="Envoyer">
+
+                    <input type="submit" value="Effacer">
+                </p>
+
+                <small>Les champs marqués d'une * sont obligatoires</small>
+
+
+
+
+
+
+                </form>
+
+
+
+
+
+
+            </div>
+
+
+
+
+        </section>
+
+
+        <!-- footer -->
+        <footer>
+            <p>copyrihgt</p>
+        </footer>
+
+    </main>
+</body>
+<script src="https://kit.fontawesome.com/8f0fa5875a.js" crossorigin="anonymous"></script>
+
+</html>
