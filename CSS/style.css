@@ -55,6 +55,8 @@ aside,
     float: left;
 }
 
+
+
 aside img {
     width: 10em;
     margin-left: 1.3em;
@@ -63,15 +65,16 @@ aside img {
 }
 
 p1,
-p2 {
-    color: #b57979
+p2,
+p3 {
+    color: #fcf9f9
 }
 
 p3 {
     width: 100%;
     margin-top: 2em;
     clear: both;
-    color: #bfbf09
+    color: #fcf9f9
 }
 
 aside {
