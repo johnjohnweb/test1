@@ -8,14 +8,6 @@
         font-size: 1.2em;
     }
 
-    ul#menu-haut {
-        height: 5em;
-    }
-
-    li {
-        margin-bottom: 0.5em;
-    }
-
     aside {
         display: none;
     }
@@ -69,47 +61,5 @@
 
 
 
+
     /* page contact */
-
-    #menu-haut {
-        text-align: right;
-        margin-right: 1em;
-    }
-
-    .colonne-gauche {
-        width: 96%;
-        height: 42em;
-        background-color: #A2B9A2;
-    }
-
-    .colonne-droite {
-        height: 56em;
-        width: 96%;
-        background-color: #A2B9A2;
-    }
-
-
-
-    audio {
-        width: 98%;
-    }
-
-    video {
-        width: 96%;
-        height: 259px;
-    }
-
-    p.boutton {
-        margin-top: 0em;
-    }
-
-    .colonne-droite {
-        height: 56em;
-    }
-
-    iframe {
-        margin-top: 3em;
-    }
-
-
-}
