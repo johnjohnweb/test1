@@ -82,14 +82,17 @@
         width: 100%;
     }
 
-    input[type="submit"],
-    input[type="rest"] {
-        width: 9em;
-        padding: 1%;
-        background-color: #232323;
-        color: #f1f1f1;
+    p.boutton {
+        margin-top: 0em;
     }
 
+    .colonne-droite {
+        height: 53em;
+    }
+
+    iframe {
+        margin-top: 3em;
+    }
 
 
 }
