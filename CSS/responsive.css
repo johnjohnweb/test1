@@ -103,13 +103,36 @@
         margin-top: 0em;
     }
 
-    .colonne-droite {
-        height: 56em;
-    }
-
     iframe {
         margin-top: 3em;
     }
 
+
+}
+
+@media screen and (orientation:landscape) and (max-width:823px) {
+
+    main {
+        width: 100%;
+    }
+
+    audio {
+        margin: 1em -0.6em;
+    }
+
+    video {
+        width: 96%;
+        height: 170px;
+    }
+
+    .colonne-gauche,
+    .colonne-droite {
+        width: 46%;
+        float: left;
+        background-color: #A2B9A2;
+        margin: 1%;
+        padding-left: 2%;
+        height: 56em;
+    }
 
 }
