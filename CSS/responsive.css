@@ -68,15 +68,19 @@
         margin-right: 1em;
     }
 
-    .colonne-gauche,
-    .colonne-droite {
+    .colonne-gauche {
         width: 96%;
-        float: left;
+        height: 42em;
         background-color: #A2B9A2;
-        margin: 1%;
-        padding-left: 2%;
-        height: 55em;
     }
+
+    .colonne-droite {
+        height: 56em;
+        width: 96%;
+        background-color: #A2B9A2;
+    }
+
+
 
     audio {
         width: 98%;
