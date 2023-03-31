@@ -135,4 +135,22 @@
         height: 56em;
     }
 
+    aside img {
+        width: 5em;
+        margin-left: 1.3em;
+        border-radius: 50%;
+        height: 5em;
+    }
+
+    #colonne-de-droite {
+        width: 76%;
+        height: 56em;
+        background: url(../images/8.jpg);
+        background-size: cover;
+    }
+
+    p {
+        margin-left: 1em;
+    }
+
 }
