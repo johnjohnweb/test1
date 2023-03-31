@@ -68,12 +68,18 @@
         margin-right: 1em;
     }
 
-    element.style {
-        width: 100%;
+    .colonne-gauche,
+    .colonne-droite {
+        width: 96%;
+        float: left;
         background-color: #A2B9A2;
         margin: 1%;
         padding-left: 2%;
         height: 50em;
+    }
+
+    audio {
+        width: 100%;
     }
 
 
