@@ -128,14 +128,13 @@
         margin-top: 4em;
     }
 
-    .colonne-gauche,
-    .colonne-droite {
+    .colonne-gauche, .colonne-droite {
         width: 46%;
         float: left;
         background-color: #A2B9A2;
         margin: 1%;
         padding-left: 2%;
-        height: 56em;
+        height: 60em;
     }
 
     aside img {

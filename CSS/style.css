@@ -147,8 +147,9 @@ footer {
 
 /*      La page contact      */
 
+
 .colonne-gauche,
-.colonne-droite {
+#overlay {
     width: 46%;
     float: left;
     background-color: #A2B9A2;
