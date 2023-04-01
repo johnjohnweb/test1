@@ -110,19 +110,22 @@
 
 }
 
-@media screen and (orientation:landscape) and (max-width:390px) {
+@media screen and (orientation:landscape) and (max-width:844px) {
 
     main {
         width: 100%;
+        margin: 0 auto;
+        background-color: #bad8b6;
     }
 
     audio {
-        margin: 1em -0.6em;
+        margin-left: 1.6em;
     }
 
     video {
         width: 96%;
-        height: 170px;
+        height: 12em;
+        margin-top: 4em;
     }
 
     .colonne-gauche,
@@ -152,5 +155,7 @@
     .aside p {
         margin-left: 1em;
     }
-
+    input[type="email"] {
+        margin-left: 1.3em;
+    }
 }
