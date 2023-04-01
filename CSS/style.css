@@ -72,7 +72,7 @@ p3 {
 
 p3 {
     width: 100%;
-    margin-top: 2em;
+    margin-top: 12em;
     clear: both;
     color: #fcf9f9
 }
@@ -125,6 +125,7 @@ h6 {
 }
 
 .bloc3 {
+    margin-top: 17em;
     clear: both;
 }
 
@@ -149,7 +150,7 @@ footer {
 
 
 .colonne-gauche,
-#overlay {
+.colonne-droite {
     width: 46%;
     float: left;
     background-color: #A2B9A2;
