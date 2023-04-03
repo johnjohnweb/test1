@@ -110,7 +110,8 @@
     iframe {
         margin-top: 3em;
     }
-
+    
+    
 
 }
 
@@ -159,7 +160,7 @@
         margin-left: 1em;
     }
     input[type="email"] {
-        margin-left: 1.3em;
+        margin-left: 0;
     }
     
     element.style {
